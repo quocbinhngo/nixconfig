@@ -35,17 +35,22 @@
 #    pkgs.neovim  # Install Neovim
     pkgs.git     # Git is needed for plugin management
     pkgs.tmux
+
+    pkgs.slock
     
     pkgs.cowsay
     pkgs.htop
     pkgs.btop
     pkgs.lf
 
+    pkgs.ventoy
+
     # Dev
-    pkgs.docker
+#    pkgs.docker
     pkgs.jetbrains.idea-community-src
     
     pkgs.teams-for-linux
+
     # For hyprland
     pkgs.hyprland
     pkgs.hyprshot

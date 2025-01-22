@@ -29,6 +29,16 @@
 	    modules = [ 
             inputs.nixvim.homeManagerModules.nixvim
             ./user/wasser/home.nix  
+        ];
+      };
+
+      homeConfigurations.root = home-manager.lib.homeManagerConfiguration {
+        inherit pkgs;
+
+        # Specify your home configuration modules here, for example,
+        # the path to your home.nix.
+	    modules = [ 
+            inputs.nixvim.homeManagerModules.nixvim
             ./user/root/home.nix
         ];
       };

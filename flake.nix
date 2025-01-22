@@ -28,7 +28,8 @@
         # the path to your home.nix.
 	    modules = [ 
             inputs.nixvim.homeManagerModules.nixvim
-            ./home.nix  
+            ./user/wasser/home.nix  
+            ./user/root/home.nix
         ];
       };
     };

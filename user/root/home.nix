@@ -2,12 +2,12 @@
 
 {
   imports = [
-    ./nixvim/nixvim.nix
+    ../../nixvim/nixvim.nix
 #    ./docker/docker.nix
   ];
 
-  home.username = "wasser";
-  home.homeDirectory = "/home/wasser";
+  home.username = "root";
+  home.homeDirectory = "/root";
 
 
   home.sessionVariables = {
